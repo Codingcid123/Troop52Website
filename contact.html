@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Troop 52 - Palo Alto | Contact</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>Contact Troop 52</h1>
+      <p class="subtitle">Questions? We'd love to hear from you.</p>
+    </header>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="news.html">News</a>
+      <a href="community-service.html">Community Service</a>
+      <a href="outdoor-activities.html">Outdoor Activities</a>
+      <a href="summer-camps.html">Summer Camps</a>
+      <a href="advancements.html">Advancements</a>
+      <a href="leadership.html">Leadership</a>
+      <a href="forms.html">Forms</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="gallery.html">Gallery</a>
+    </nav>
+
+    <section>
+      <h2>Send a Message</h2>
+
+      <form action="https://formspree.io/f/mdabkpgq" method="POST">
+        
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" placeholder="Write your message here" required></textarea>
+
+        <!-- Optional extras -->
+        <input type="hidden" name="_subject" value="New Troop 52 Contact Form Message">
+        <input type="hidden" name="_redirect" value="thankyou.html">
+
+        <button type="submit">Send Message</button>
+      </form>
+
+    </section>
+
+    <footer>Troop 52 - Palo Alto</footer>
+  </div>
+  <script src="leaves.js"></script>
+</body>
+</html>
